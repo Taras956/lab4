@@ -1,0 +1,57 @@
+.item-card {
+    max-width: 320px;
+  }
+  
+  .item-container__image {
+    min-height: 200px;
+    max-width: 420px;
+    cursor: pointer;
+  }
+  
+  .delete-section {
+    color: white;
+    padding: 20px;
+    border: 1px solid rgb(255, 53, 53);
+    border-radius: 16px;
+    background: rgba(255, 53, 53, 0.3);
+    min-height: 200px;
+    max-width: 200px;
+    display: grid;
+    place-items: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .delete-section.selected {
+    background: rgba(255, 53, 53, 0.5);
+  }
+  
+  .delete-section__icon {
+    width: 40px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+li {
+  display: inline; /* Робимо <li> блоками і розташовуємо горизонтально */
+  margin-right: 10px; /* Додаємо внутрішній відступ між пунктами */
+}
+ul li a {
+  text-decoration: none; /* Забираємо нижнє підкреслення */
+  font-size: 16px; /* Змінюємо розмір шрифту на 16px */
+  color: #FF0000; /* Змінюємо колір тексту на червоний (змініть на власний вибір) */
+  display: inline-block; /* Робимо посилання блоками */
+  padding: 10px 20px; /* Додаємо внутрішні відступи для кнопки */
+  text-decoration: none; /* Забираємо підкреслення */
+  font-size: 16px; /* Розмір шрифту */
+  color: #FFFFFF; /* Колір тексту */
+  background-color: #0074D9; /* Колір фону кнопки */
+  border: 1px solid #0056b3; /* Границя кнопки */
+  border-radius: 5px; /* Закруглені кути */
+  cursor: pointer; /* Змінюємо вигляд курсору при наведенні */
+  text-align: center
+}
+ul li a:hover {
+  background-color: #0056b3; /* Змінюємо колір фону при наведенні */
+}
